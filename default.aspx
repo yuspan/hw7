@@ -5,7 +5,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <h3>Main body text</h3>
+    <h3>Welcome to Chinese Poetry Library</h3>
 
     <p>寒蝉凄切，对长亭晚。骤雨初歇，都门帐饮无绪，方留恋处，兰舟催发。执手相看泪眼，竟无语凝噎。念去去，千里烟波，暮霭沉沉楚天阔。
  </p>

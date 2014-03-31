@@ -15,22 +15,25 @@
 <body>
     <form id="form1" runat="server">
     <div id="container">
-        <div id="header">
+        <div id="header"  >
             <asp:Image Class="hdr_img" ID="Image1" runat="server" Height="78px" ImageUrl="~/logo/poetry.jpg" Width="78px" />
             <h1>Online Library of Chinese Poems</h1>
 
         </div>
 
         <div id="menu">
+
             <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="horizontal" StaticDisplayLevels="1">
 
                 <LevelMenuItemStyles>
                     <asp:MenuItemStyle CssClass="level1" />
                     <asp:MenuItemStyle CssClass="level2" />
                     <asp:MenuItemStyle CssClass="level3" />
+                    
                 </LevelMenuItemStyles>
-
+                
             </asp:Menu>
+            <asp:LoginStatus ID="LoginStatus1" runat="server" />
             <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
         </div>
 
@@ -43,7 +46,7 @@
             </div>
 
         <div id="footer">
-            Footer Text
+           © 2014. 6K:183 Software Design & Development
         </div>
     </div>
     </form>

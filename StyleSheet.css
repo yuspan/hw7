@@ -1,16 +1,22 @@
-﻿body {
+﻿
+html {
+    background-image: url("./background.jpg");
 }
 
+body {
+    opacity: .9;
+    margin:10;
+}
 #container {
-    background: pink;
+    background: border-box;
     padding: 20px;
     margin: 0 auto;
-    border: 1px solid black;
+    
     width: 900px;
 }
 
 #header {
-    background: blue;
+    background-image:url(./header.jpg);
     color: white;
     padding: 10px;
     margin: 0 auto;
@@ -23,8 +29,14 @@
     margin: 0 auto;
     border-left: 1px solid black;
     border-right: 1px solid black;
+    height:600px;
 }
 
+h3 {
+    color:brown;
+    font-size: xx-large;
+    text-align: center;
+}
 #footer {
     background: green;
     color: white;
@@ -43,18 +55,18 @@
 }
 
 .level1 {
-    color: Blue;
-    background-color:White;
+    color: Black;
+    font-family:Rockwell;
     font-variant: small-caps;
     font-size: large;
     font-weight: bold;
 }
 
 .level2 {
-    color: pink;
-    font-family: 'Adobe Caslon Pro';
+    color: Black;
+    font-family: Rockwell;
     font-size: medium;
-    background-color: White;
+
 }
 
 .level3 {

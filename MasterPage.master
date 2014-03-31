@@ -22,7 +22,16 @@
         </div>
 
         <div id="menu">
-            MENU
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="horizontal" StaticDisplayLevels="1">
+
+                <LevelMenuItemStyles>
+                    <asp:MenuItemStyle CssClass="level1" />
+                    <asp:MenuItemStyle CssClass="level2" />
+                    <asp:MenuItemStyle CssClass="level3" />
+                </LevelMenuItemStyles>
+
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
         </div>
 
         <div id="main">

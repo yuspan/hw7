@@ -42,4 +42,25 @@
     border-right: 1px solid black;
 }
 
+.level1 {
+    color: Blue;
+    background-color:White;
+    font-variant: small-caps;
+    font-size: large;
+    font-weight: bold;
+}
+
+.level2 {
+    color: pink;
+    font-family: 'Adobe Caslon Pro';
+    font-size: medium;
+    background-color: White;
+}
+
+.level3 {
+    color: white;
+    background-color: blue;
+    font-family: Gill Sans mt !important;
+    font-size: small;
+}
 

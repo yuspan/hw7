@@ -16,7 +16,7 @@
     <form id="form1" runat="server">
     <div id="container">
         <div id="header">
-
+            <asp:Image Class="hdr_img" ID="Image1" runat="server" Height="78px" ImageUrl="~/logo/poetry.jpg" Width="78px" />
             <h1>Online Library of Chinese Poems</h1>
 
         </div>

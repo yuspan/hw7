@@ -1,5 +1,5 @@
 ﻿
-Partial Class Super_Librarian_default
+Partial Class SuperLibrarian_default
     Inherits System.Web.UI.Page
 
 End Class

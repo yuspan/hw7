@@ -10,7 +10,7 @@
     </siteMapNode>
 
     <siteMapNode url="~/librarian/default.aspx" title="Librarian"  description="" >
-      <siteMapNode url="~/librarian/edit.aspx" title="View Items"  description="" />
+      <siteMapNode url="~/librarian/view.aspx" title="View Items"  description="" />
       <siteMapNode url="~/librarian/modify.aspx" title="Edit Items" description="" />
     </siteMapNode>
 

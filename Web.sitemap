@@ -10,12 +10,12 @@
     </siteMapNode>
 
     <siteMapNode url="~/librarian/default.aspx" title="Librarian"  description="" >
-      <siteMapNode url="~/librarian/add.aspx" title="Add Item"  description="" />
-      <siteMapNode url="~/librarian/Edit.aspx" title="Edit Item"  description="" />
+      <siteMapNode url="~/librarian/edit.aspx" title="View Items"  description="" />
+      <siteMapNode url="~/librarian/modify.aspx" title="Edit Items" description="" />
     </siteMapNode>
 
     <siteMapNode url="~/patron/default.aspx" title="Patron"  description="" >
-      <siteMapNode url="~/patron/view.aspx" title="View Account"  description="" />
+      <siteMapNode url="~/patron/view.aspx" title="Details"  description="" />
     </siteMapNode>
 
     <siteMapNode url="~/search/default.aspx" title="Search" description="" />

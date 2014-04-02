@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    opacity: .9;
+    opacity: .95;
     margin:10;
 }
 #container {
@@ -43,10 +43,11 @@ h3 {
     padding: 10px;
     margin: 0 auto;
     border: 1px solid black;
+    text-align:center;
 }
 
 #menu {
-    background: orange;
+    background: #fad187;
     color: white;
     padding: 10px;
     margin: 0 auto;
@@ -55,16 +56,14 @@ h3 {
 }
 
 .level1 {
-    color: Black;
-    font-family:Rockwell;
-    font-variant: small-caps;
+    color: black;
+  
     font-size: large;
     font-weight: bold;
 }
 
 .level2 {
-    color: Black;
-    font-family: Rockwell;
+    color: grey;
     font-size: medium;
 
 }
@@ -72,7 +71,7 @@ h3 {
 .level3 {
     color: white;
     background-color: blue;
-    font-family: Gill Sans mt !important;
+  
     font-size: small;
 }
 
@@ -81,4 +80,11 @@ h3 {
     margin: 0;
     padding: 0;
     border: 0;
+}
+#LoginStatus1 {
+    float:right;
+    color: black;
+  
+    font-size: large;
+    font-weight: bold;
 }

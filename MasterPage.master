@@ -23,6 +23,8 @@
 
         <div id="menu">
 
+            &nbsp;<asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="LOGIN" LogoutText="LOGOUT"  />
+
             <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="horizontal" StaticDisplayLevels="1">
 
                 <LevelMenuItemStyles>
@@ -33,7 +35,6 @@
                 </LevelMenuItemStyles>
                 
             </asp:Menu>
-            <asp:LoginStatus ID="LoginStatus1" runat="server" />
             <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
         </div>
 

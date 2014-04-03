@@ -19,5 +19,13 @@
     </siteMapNode>
 
     <siteMapNode url="~/search/default.aspx" title="Search" description="" />
+
+    <siteMapNode url="~/about/default.aspx" title="About"  description="" >
+    </siteMapNode>
+
+    <siteMapNode url="~/contact/default.aspx" title="Contact"  description="" >
+   
+    </siteMapNode>
+    
   </siteMapNode>
 </siteMap>

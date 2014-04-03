@@ -29,8 +29,10 @@
         </UpdateParameters>
     </asp:SqlDataSource>
     <br />
-    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="SqlDataSource1" Width="582px">
-        <Columns>
+    <asp:GridView ID="GridView1" cssclass="cssgridview" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="SqlDataSource1" Width="582px">
+       
+         <AlternatingRowStyle CssClass="alt" />
+         <Columns>
             <asp:BoundField DataField="Title" HeaderText="Title" SortExpression="Title" />
             <asp:BoundField DataField="Author" HeaderText="Author" SortExpression="Author" />
             <asp:BoundField DataField="Dynasty" HeaderText="Dynasty" SortExpression="Dynasty" />

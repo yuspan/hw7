@@ -47,6 +47,8 @@
             </div>
 
         <div id="footer">
+            <asp:Label ID="labeltodaydate" runat="server" Text="Label"></asp:Label>
+            <br />
            © 2014. 6K:183 Software Design & Development
         </div>
     </div>

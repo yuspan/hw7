@@ -28,8 +28,9 @@
         </UpdateParameters>
     </asp:SqlDataSource>
     <br />
-    <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="ID" DataSourceID="SqlDataSource1" Height="50px" Width="416px">
-        <Fields>
+    <asp:DetailsView ID="DetailsView1" cssclass="cssgridview" runat="server" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="ID" DataSourceID="SqlDataSource1" Height="50px" Width="416px">
+        <AlternatingRowStyle CssClass="alt" />
+         <Fields>
             <asp:BoundField DataField="ID" HeaderText="ID" InsertVisible="False" ReadOnly="True" SortExpression="ID" />
             <asp:BoundField DataField="Title" HeaderText="Title" SortExpression="Title" />
             <asp:BoundField DataField="Author" HeaderText="Author" SortExpression="Author" />
@@ -41,5 +42,5 @@
             <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowInsertButton="True" />
         </Fields>
     </asp:DetailsView>
-</asp:Content>
+    </asp:Content>
 
